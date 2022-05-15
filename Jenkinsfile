@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploy Step'
-                sleep 10
+                sleep 8
             }
         }
         stage('Docker') {
